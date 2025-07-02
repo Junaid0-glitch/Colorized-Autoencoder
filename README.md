@@ -1,9 +1,5 @@
 # 🎨 Image Colorization with Convolutional Autoencoder
 
-![Stars](https://img.shields.io/github/stars/YOUR_USERNAME/YOUR_REPO_NAME?style=social)
-![Last Commit](https://img.shields.io/github/last-commit/YOUR_USERNAME/YOUR_REPO_NAME)
-![Streamlit App](https://img.shields.io/badge/Streamlit-Live%20Demo-orange)
-
 Colorizing grayscale images using a deep convolutional autoencoder built with PyTorch. This project was trained on the CelebA dataset and achieves over **75% pixel-wise accuracy** in reconstructing color from grayscale input.
 
 ---
@@ -29,9 +25,10 @@ Trained using MSE Loss and Adam Optimizer.
 
 ## 🧪 Results
 
-| Grayscale Input | Colorized Output |
-|-----------------|------------------|
-| ![Gray](examples/input.jpg) | ![Color](examples/output.jpg) |
+| Grayscale Input  Colorized Output |
+|-----------------------------------|
+|  |![Screenshot 2025-07-02 191417](https://github.com/user-attachments/assets/e0aaaea8-f4e4-4385-a59b-cd9929298808)
+
 
 📈 **Accuracy**: `~75% pixel-level accuracy` (tolerance = 0.05)
 
@@ -76,7 +73,7 @@ Upload any grayscale image (128x128 recommended) to see the colorization results
 ## 📁 Dataset
 
 - Used the **CelebA dataset** from [Kaggle](https://www.kaggle.com/datasets/jessicali9530/celeba-dataset)
-- Trained on 30,000 facial images
+- Trained on 60,000 facial images
 - Preprocessed to 128x128 grayscale and RGB
 
 ---
@@ -86,23 +83,10 @@ Upload any grayscale image (128x128 recommended) to see the colorization results
 - **Platform**: Google Colab
 - **Optimizer**: Adam
 - **Loss**: MSELoss
-- **Epochs**: 10
+- **Epochs**: 25
 - **Batch Size**: 64
 
 Training visualization included below:
-
-```python
-# Training loss and accuracy plot
-import matplotlib.pyplot as plt
-
-plt.plot(train_loss, label='Loss')
-plt.plot(accuracy_scores, label='Accuracy (every 10 epochs)')
-plt.xlabel("Epoch")
-plt.ylabel("Metric")
-plt.legend()
-plt.title("Training Metrics")
-plt.show()
-```
 
 ---
 
@@ -119,8 +103,8 @@ plt.show()
 
 If you have questions or want to collaborate:
 
-- GitHub: [@YOUR_USERNAME](https://github.com/YOUR_USERNAME)
-- Email: `your.email@example.com`
+- GitHub: [@YOUR_USERNAME](https://github.com/Junaid0-glitch)
+- Email: `junaid76170@gmail.com`
 
 ---
 
