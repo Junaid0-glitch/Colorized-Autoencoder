@@ -27,7 +27,8 @@ Trained using MSE Loss and Adam Optimizer.
 
 | Grayscale Input  Colorized Output |
 |-----------------------------------|
-|  |![Screenshot 2025-07-02 191417](https://github.com/user-attachments/assets/e0aaaea8-f4e4-4385-a59b-cd9929298808) |
+|  ![Screenshot 2025-07-02 191417](https://github.com/user-attachments/assets/297c3c0d-0e91-4a53-93be-c2f3aa757bdc)
+ |
 
 
 📈 **Accuracy**: `~75% pixel-level accuracy` (tolerance = 0.05)
