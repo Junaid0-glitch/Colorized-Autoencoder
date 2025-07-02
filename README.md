@@ -27,7 +27,7 @@ Trained using MSE Loss and Adam Optimizer.
 
 | Grayscale Input  Colorized Output |
 |-----------------------------------|
-|  |![Screenshot 2025-07-02 191417](https://github.com/user-attachments/assets/e0aaaea8-f4e4-4385-a59b-cd9929298808)
+|  |![Screenshot 2025-07-02 191417](https://github.com/user-attachments/assets/e0aaaea8-f4e4-4385-a59b-cd9929298808) |
 
 
 📈 **Accuracy**: `~75% pixel-level accuracy` (tolerance = 0.05)
@@ -103,7 +103,7 @@ Training visualization included below:
 
 If you have questions or want to collaborate:
 
-- GitHub: [@YOUR_USERNAME](https://github.com/Junaid0-glitch)
+- GitHub: [@Junaid0-glitch](https://github.com/Junaid0-glitch)
 - Email: `junaid76170@gmail.com`
 
 ---
